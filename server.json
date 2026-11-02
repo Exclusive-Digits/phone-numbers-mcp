@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.exclusivedigits/phone-numbers",
+  "title": "Exclusive Digits phone numbers",
+  "description": "Search US local phone numbers for sale by city, area code, word, pattern or price.",
+  "version": "2.0.0",
+  "websiteUrl": "https://exclusivedigits.com/ai-assistants",
+  "icons": [
+    { "src": "https://exclusivedigits.com/icon-192x192.png", "mimeType": "image/png", "sizes": ["192x192"] },
+    { "src": "https://exclusivedigits.com/icon-512x512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://exclusivedigits.com/mcp" }
+  ]
+}
